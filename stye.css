@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@400;700&family=Inter:wght@700&family=Roboto:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+  
+}
+:root {
+  --titlecolor: #1d1f29;
+  --smalltext: #63687d;
+  --bgcolor: #f7f9ff;
+  --date: #1eb589;
+  --bgcolor2: #f1f3fa;
+}
+
+.title {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--titlecolor);
+}
+
+.action-btn {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--smalltext);
+   transform: translatex(-250px); 
+  /* padding-right: 256px; */
+  /* position: relative;
+  left: -244px; */
+  
+  
+
+}
+h5 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--smalltext);
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--bgcolor);
+  padding: 36px 0 0 162px;
+  height: 244px;
+  border-radius: 0px, 0px, 20px, 20px;
+}
+.onbtn {
+  position: absolute;
+  top: 34px;
+  left: 1062px;
+  transition: all 1s;
+}
+ /* .onbtn:hover{
+  content: url(images/hover.png
+  );
+} */
+
+.followers {
+  display: flex;
+  gap: 30px;
+}
+.name {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--smalltext);
+}
+.number {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--titlecolor);
+  position: relative;
+  top: -5px;
+}
+.attribute {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: var(--smalltext);
+  margin-top: -10px;
+  position: relative;
+  top: -20px;
+  
+}
+.follower {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--date);
+  position: relative;
+  top: -10px;
+}
+.follower::before {
+  content: url(images/arr1.png);
+  position: relative;
+  top: -2px;
+}
+.follow {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--date);
+  position: relative;
+  top: -10px;
+}
+
+.follow::before {
+  content: url(images/arr2.png);
+  position: relative;
+  top: -2px;
+}
+
+li {
+  background-color: var(--bgcolor2);
+  width: 229px;
+  height: 216px;
+  position: relative;
+  left: 150px;
+  z-index: 1;
+  top: -80px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+li:hover {
+  background-color: #e1e4f0;
+}
+.overview-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--smalltext);
+  margin-left: 150px;
+  margin-top: -20px;
+}
+ul {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  position: absolute;
+  top: 650px;
+  
+}
+ul li {
+  width: 230px;
+  height: 125px;
+}
+.names {
+  color: var(--smalltext);
+  font-size: 14px;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.numbers {
+  font-size: 32px;
+  color: var(--titlecolor);
+  position: absolute;
+  left: 10px;
+  top: 65px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.attributes {
+  font-size: 12px;
+  color: var(--date);
+  position: absolute;
+  left: 150px;
+  top: 80px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#list1::after {
+  content: url(images/ficon.png);
+  position: absolute;
+  left: 157px;
+}
+#list2::after {
+  content: url(images/ficon.png);
+  position: absolute;
+  left: 157px;
+}
+
+#list3::after {
+  content: url(images/iicon.png);
+  position: absolute;
+  left: 159px;
+}
+#list4::after {
+  content: url(images/iicon.png);
+  position: absolute;
+  left: 159px;
+}
+
+#list5::after {
+  content: url(images/ticon.png);
+  position: absolute;
+  left: 157px;
+}
+#list6::after {
+  content: url(images/ticon.png);
+  position: absolute;
+  left: 157px;
+}
+
+#list7::after {
+  content: url(images/Yicon.png);
+  position: absolute;
+  left: 157px;
+}
+#list8::after {
+  content: url(images/Yicon.png);
+  position: absolute;
+  left: 157px;
+}
+#lists {
+  border-top: 5px solid #178ff5;
+  border-radius: 7px;
+}
+#lists1 {
+  border-top: 5px solid #1da1f2;
+  border-radius: 7px;
+}
+#lists2 {
+  border-top: 5px solid;
+  border-color: #df4896;
+  border-radius: 7px;
+}
+#lists3 {
+  border-top: 5px solid;
+  border-color: #c4032b;
+  border-radius: 7px;
+}
+#fname::before {
+  content: url(images/ficon.png);
+  position: absolute;
+  left: 55px;
+  top: 26px;
+}
+
+#fname1::before {
+  content: url(images/ticon.png);
+  position: absolute;
+  left: 55px;
+  top: 26px;
+}
+#fname2::before {
+  content: url(images/Iicon.png);
+  position: absolute;
+  left: 55px;
+  top: 26px;
+}
+#fname2{
+    margin-left: 20px;
+}
+#fname3::before {
+  content: url(images/Yicon.png);
+  position: absolute;
+  left: 55px;
+  top: 26px;
+}
+.test1{
+    display: none;
+}
+#f1::before{
+  content: url(images/arr1.png);
+  position: relative;
+  left: -3px;
+  top: -2px;
+}
+#f2::before{
+  content: url(images/arr1.png);
+  position: relative;
+  left: -3px;
+  top: -2px;
+}
+#f3::before{
+  content: url(images/arr1.png);
+  position: relative;
+  left: -3px;
+  top: -2px;
+}
+#f4::before{
+  content: url(images/arr1.png);
+  position: relative;
+  left: -3px;
+  top: -2px;
+}
+#f5::before{
+  content: url(images/arr1.png);
+  position: relative;
+  left: -3px;
+  top: -2px;
+}
+#f6::before{
+  content: url(images/arr1.png);
+  position: relative;
+  left: -3px;
+  top: -2px;
+}
+#f2::before{
+  content: url(images/arr2.png);
+  position: relative;
+  left: -3px;
+  top: -2px;
+}
+
+#f7::before{
+  content: url(images/arr2.png);
+  position: relative;
+  left: -3px;
+  top: -2px;
+}
+
+#f8::before{
+  content: url(images/arr2.png);
+  position: relative;
+  left: -3px;
+  top: -2px;
+}
+@media screen and (min-width:300px) and (max-width:430px){
+body{
+  overflow-x: hidden;
+}
+
+
+ol{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  position: relative;
+  left: -130px;
+  
+}
+ul{
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 700px;
+  margin-right: 200px;
+  position: absolute;
+  left: -130px;
+  
+}
+ul li{
+  width: 326px;
+}
+ol li{
+  width: 326px;
+}
+.title{
+  position: absolute; 
+  width: 373px;
+  left: 0;
+  font-size: 24px;
+  margin: 17px 67px 0 20px;
+}
+  .onbtn{
+  position: absolute;
+  left: 250px;
+  top: -10px;
+}  
+.test2{
+  position: absolute;
+  top: 150px;
+  left: 0;
+  margin: 17px 0 0 20px;
+
+  
+}
+.overview-title{
+  position: relative;
+  right: 130px;
+}
+.container1{
+  width: auto;
+}
+section{
+  overflow-y: hidden;
+}
+#fname::before {
+  position: absolute;
+  left: 110px;
+}
+
+#fname1::before {
+  position: absolute;
+  left: 110px;
+}
+#fname2::before {
+  position: absolute;
+  left: 110px;
+}
+#fname3::before {
+  position: absolute;
+  left: 110px;
+}
+#list1::after {
+  content: url(images/ficon.png);
+  position: absolute;
+  left: 257px;
+}
+#list3::after {
+  content: url(images/iicon.png);
+  position: absolute;
+  left: 257px;
+}
+#list4::after {
+  content: url(images/iicon.png);
+  position: absolute;
+  left: 257px;
+}
+#list5::after {
+  content: url(images/ticon.png);
+  position: absolute;
+  left: 257px;
+}
+#list6::after {
+  content: url(images/ticon.png);
+  position: absolute;
+  left: 257px;
+}
+
+#list7::after {
+  content: url(images/Yicon.png);
+  position: absolute;
+  left: 257px;
+}
+#list8::after {
+  content: url(images/Yicon.png);
+  position: absolute;
+  left: 257px;
+}
+.attributes{
+  left: 257px;
+}
+.title::after{
+content: "Dark Mode";
+font-size: 14px;
+font-weight: 700;
+position: absolute;
+top: 105px;
+/* color: var(--smalltext); */
+  }
+
+}
+
+@media screen and (min-width:431px) and (max-width:900px){
+  
+ .onbtn{
+  
+  position: absolute;
+  left: 650px;
+  top: 40px;
+}  
+.onbtn::before{
+  content: "Dark Mode";
+  font-size: 14px;
+font-weight: 700;
+position: relative;
+top: -5px;
+left: -30px;
+} 
+.container1{
+  width: 100%;
+}
+.title{
+  position: absolute;
+  left: 50px;
+}
+ol{
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin:auto -25%;
+  position: absolute;
+  left: 50px;
+}
+ul{
+ 
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: -25%;
+  margin-right: 15%;
+  margin-top: 200px;
+  position: absolute;
+  left: 50px;
+
+}
+ .overview-title{
+  position: absolute;
+  top: 710px;
+  left: -89px;
+  
+} 
+
+}

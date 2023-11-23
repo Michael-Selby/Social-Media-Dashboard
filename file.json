@@ -1,0 +1,82 @@
+{
+"followers":[
+   {
+        "name":"@nathanf",
+        "number":"1987",
+        "atrribute":"Followers",
+        "date":"12 Today"
+        },
+
+      {
+            "name":"@nathanf",
+            "number":"1044",
+            "atrribute":"Followers",
+            "date":"99 Today"
+            },
+     {
+                "name":"@realnathanf",
+                "number":"11k",
+                "atrribute":"Followers",
+                "date":"1099 Today"
+                },
+ {
+                    "name":"Nathan F.",
+                    "number":"8239",
+                    "atrribute":"Followers",
+                    "date":"144 Today"
+                    
+                    }
+],
+
+"overview":[
+  {
+    "PageView":"Page Views",
+    "PageViewNum":87,
+    "Percentage":"3%"
+    },
+
+  {
+        "PageView":"Likes",
+        "PageViewNum":52,
+        "Percentage":"2%"
+      
+        },
+ {
+            "PageView":"Likes",
+            "PageViewNum":5462,
+            "Percentage":"2257%"
+            
+            },
+{
+                "PageView":"Profile Views",
+                "PageViewNum":"52K",
+                "Percentage":"1375%"
+                
+                },
+                {
+                  "PageView":"Retweets",
+                  "PageViewNum":117,
+                  "Percentage":"303%"
+                  
+                  },
+              
+                {
+                      "PageView":"Likes",
+                      "PageViewNum":507,
+                      "Percentage":"553%"
+                      
+                      },
+               {
+                          "PageView":"Likes",
+                          "PageViewNum":107,
+                          "Percentage":"19%"
+                          },
+              {
+                              "PageView":"Total Views",
+                              "PageViewNum":1407,
+                              "Percentage":"12%"
+                              
+                            }
+
+        ]
+}
